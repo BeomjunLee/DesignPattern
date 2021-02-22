@@ -1,4 +1,16 @@
 package com.practice.strategyPattern;
 
-public class Sword {
+/**
+ * (무기) 검
+ */
+public class Sword implements Weapon{
+
+
+    /**
+     * 검으로 공격
+     */
+    @Override
+    public void attack() {
+        System.out.println("검 공격");
+    }
 }
