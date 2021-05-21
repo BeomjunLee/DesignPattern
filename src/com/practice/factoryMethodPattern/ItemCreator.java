@@ -11,12 +11,12 @@ public abstract class ItemCreator {
     }
 
     //아이탬을 생성하기전에 DB 에 정보 요청합니다.
-    abstract protected void requestItemInfo();
+    protected abstract void requestItemInfo();
 
     //아이템을 생성후 로그 남기기
-    abstract protected void createItemLog();
+    protected abstract void createItemLog();
 
     //아이템을 생성하는 알고리즘
-    abstract protected Item createItem();
+    protected abstract Item createItem();
 
 }
